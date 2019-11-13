@@ -1,0 +1,6 @@
+event:
+  threadpoll:
+    corePoolSize: 5
+    maximumPoolSize: 10
+    keepAliveTime: 30
+    workQueueSize: 10
