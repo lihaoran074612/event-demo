@@ -37,7 +37,7 @@
         </dependency>
         <dependency>
             <groupId>com.srm.starter</groupId>
-            <artifactId>event-starter-autoconfigure</artifactId>
+            <artifactId>srm-event-starter</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
