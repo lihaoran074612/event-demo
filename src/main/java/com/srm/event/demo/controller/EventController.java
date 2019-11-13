@@ -12,7 +12,7 @@ public class EventController {
     EventPublishUtil eventPublishUtil;
 
     @GetMapping("/event/{obj}/{code}")
-    public String eventTest(@PathVariable String code,@PathVariable String obj){
+    public String eventTest(@PathVariable String obj, @PathVariable String code){
         eventPublishUtil.publishEvent(obj,code);
         return code;
     }
