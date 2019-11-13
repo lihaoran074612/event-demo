@@ -37,8 +37,8 @@
         </dependency>
         <dependency>
             <groupId>com.srm.starter</groupId>
-            <artifactId>spring-boot-starter-event</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <artifactId>event-starter-autoconfigure</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
