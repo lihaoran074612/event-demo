@@ -12,6 +12,6 @@ public class OrderHandle2 implements BaseHandle {
     Logger logger = LoggerFactory.getLogger(OrderHandle2.class);
     @Override
     public void handle(Object obj) {
-        logger.info("当前线程: " +Thread.currentThread().getName()+" 执行了订单2事件   "+obj);
+        logger.info("当前线程: " +Thread.currentThread().getName()+" 执行了订单2事件:  "+obj);
     }
 }
