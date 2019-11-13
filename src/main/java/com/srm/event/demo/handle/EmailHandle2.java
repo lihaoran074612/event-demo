@@ -1,5 +1,6 @@
 package com.srm.event.demo.handle;
 
+import com.srm.event.demo.entity.User;
 import com.srm.starter.handle.BaseHandle;
 import com.srm.starter.handle.EventHandle;
 import org.slf4j.Logger;
@@ -12,6 +13,9 @@ public class EmailHandle2 implements BaseHandle {
 
     @Override
     public void handle(Object obj) {
+        User user = (User)obj;
+        //todo执行业务逻辑
+        //userService.insert(user);
         logger.info("当前线程:"+Thread.currentThread().getName()+"  邮件2后续流程执行: "+obj);
     }
 }
