@@ -1,10 +1,10 @@
 package com.srm.event.demo.handle;
 
 import com.srm.event.demo.entity.User;
-import com.srm.starter.handle.BaseHandle;
-import com.srm.starter.handle.EventHandle;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.srm.event.handle.BaseHandle;
+import org.srm.event.handle.EventHandle;
 
 @EventHandle(taskCode = "Email_APPROVE", order = 2)
 public class EmailHandle2 implements BaseHandle {

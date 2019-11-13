@@ -35,11 +35,13 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
         <dependency>
-            <groupId>com.srm.starter</groupId>
-            <artifactId>srm-event-starter</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>org.srm.starter</groupId>
+            <artifactId>srm-starter-event</artifactId>
+            <version>1.4.0-SNAPSHOT</version>
         </dependency>
+
     </dependencies>
 
     <build>
