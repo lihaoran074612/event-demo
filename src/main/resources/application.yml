@@ -1,5 +1,5 @@
 event:
-  threadpoll:
+  threadpool:
     corePoolSize: 5
     maximumPoolSize: 10
     keepAliveTime: 30
